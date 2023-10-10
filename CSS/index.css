@@ -1,0 +1,95 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  font-size: 1.6rem;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+header {
+  text-align: center;
+  color: black;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px;
+}
+
+.country-container {
+  width: 30rem;
+  box-shadow: 0px 5px 3rem rgba(0, 0, 0, 0.2);
+  padding-bottom: 3rem;
+  background-color: white;
+}
+.country-flag {
+  margin-bottom: 1rem;
+}
+.flag {
+  width: 100%;
+  height: 18rem;
+}
+
+.country-detail {
+  width: 28rem;
+  margin: 0 auto;
+}
+.country-region {
+  color: gray;
+  margin-top: 0.5rem;
+  margin-bottom: 2.5rem;
+  font-weight: 600;
+}
+
+.country-population {
+  margin-bottom: 1.5rem;
+}
+
+.country-currency {
+  margin-top: 2rem;
+}
+
+.search-container {
+  position: absolute;
+  left: 50%;
+  top: 90%;
+  transform: translate(-50%, -90%);
+}
+
+.enter-country {
+  padding: 1rem;
+}
+
+.enter-country:focus {
+  outline: none;
+}
+
+.search-btn {
+  height: 4rem;
+  margin-left: -0.7rem;
+  border: 1px solid gray;
+  padding: 0 1rem;
+}
+
+.country-population span {
+  margin-right: 2rem;
+}
+
+.country-capital span {
+  margin-right: 5.1rem;
+}
+
+.country-currency span {
+  margin-right: 3.2rem;
+}
